@@ -29,3 +29,31 @@ Contributions are welcome! If you'd like to help improve the project, please cre
 ## 🙏 Acknowledgments
 
 This project is based on the original "Social Paradise" source code. A big thank you to the original authors and contributors for laying the groundwork.
+
+## 🛠 How to Setup
+
+Follow these steps to get "Social Paradise SQLi" up and running:
+
+### 📋 Prerequisites
+
+- PHP 8.0 or higher
+- MySQL Database
+- Necessary dependencies to run PHP and MySQL
+
+### 🚀 Installation
+
+1. **Upload Files**: Transfer all the project files to your server.
+2. **Database Setup**: Access your MySQL database (e.g., using phpMyAdmin) and import the `database.sql` file.
+3. **Configuration**: Navigate to `Global.php` and update the following variables with your database details:
+   - `$host`
+   - `$username`
+   - `$password`
+   - `$database`
+
+### 📌 Notes
+
+- **Maintenance Page**: If you encounter a maintenance page, the password is "speaknow13". A nod to Taylor Swift's album "Speak Now". Don't forget to stream "Speak Now - Taylor's Version"! 🎶
+- **Admin Account**: The default admin account is "Isaac". If you're unable to access it, simply create a new account and copy its password hash to the "Isaac" account using phpMyAdmin or your preferred database management tool. This is a workaround due to the project's incomplete state, especially regarding the permission system which originally used usernames for certain permissions.
+
+
+
