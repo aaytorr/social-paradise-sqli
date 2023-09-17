@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule (.*)\.aspx$ $1.php [L,T=application/x-httpd-php]
+rewriteRule ^People[/]?$ /Users/index.php [L]
+rewriteRule ^Shop[/]?$ /Store/Store.php [L]
+rewriteRule ^Shop/StoreUpload.php[/]?$ /Store/StoreUpload.php [L]
+rewriteRule ^Shop/Item$1.php[/]?$ /Store/Item.php [L]
+rewriteRule ^UserShop[/]?$ /Store/UserStore.php [L]
+rewriteRule ^My/Account[/]?$ /account.php [L]
+rewriteRule ^My/Character[/]?$ /character.php [L]
+rewriteRule ^My/FRs[/]?$ /FriendRequests.php [L]
+rewriteRule ^UserShop/UserUpload.php[/]?$ /Store/UserUpload.php [L]
+rewriteRule ^Inbox[/]?$ inbox.php [L]
+ErrorDocument 404 /Error/404.php
+ErrorDocument 403 /Error/403.shtml
