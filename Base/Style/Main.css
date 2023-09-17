@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px/1 Verdana;
+  background: #EBEBEB;
+}
+
+table {
+  font-size: 12px;
+}
+
+#Header {
+  width: 100%;
+  height: 40px;
+  background: linear-gradient(78deg, #1A52A7 20%, #052964 100%);
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+}
+
+#Header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+#Alert {
+  color: white;
+  padding: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#Container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 8px;
+  background: #EBEBEB;
+  flex: 1;
+  min-height: calc(100vh - 250px);
+}
+
+#Login {
+  background: #DBDBDB;
+  border: 1px solid #AAAAAA;
+  padding: 5px;
+  width: 300px;
+}
+
+#LargeText {
+  font-size: 25px;
+  font-weight: bold;
+  color: #444;
+  padding-bottom: 15px;
+}
+
+#Error {
+  background: #C94949;
+  border: 1px solid #822B2B;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  margin: 0 auto;
+}
+
+#ProfileText,
+#Msg {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+  padding-bottom: 15px;
+}
+
+#Msgsmall {
+  color: #999;
+  font-size: 10px;
+}
+
+#SubBar {
+  background-color: #191919;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#SubBar a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
+
+#SubBar a:hover {
+  text-decoration: underline;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  background: white;
+  border: 1px solid #BBB;
+  padding: 4px;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#aP {
+  padding: 7px;
+}
+
+#aP a {
+  color: #444;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  padding: 5px;
+}
+
+#aP a:hover {
+  text-decoration: underline;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #043B87;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  padding: 6px 0;
+  margin: 0 auto;
+  background: url('../../Images/btn-big_silver_tile.png') top left;
+  display: block;
+  width: 88px;
+  font: 16px/1 Arial;
+  font-weight: bold;
+  color: #000;
+  height: 32px;
+  border: 1px solid #bcbcbc;
+}
+
+input[type="submit"]:hover {
+  background-position: bottom left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#style_button {
+  color: #FFF;
+  font-size: 23px;
+  padding: 16px;
+  text-shadow: 0px 7px 9px rgba(30, 30, 30, 0.8);
+  border-radius: 10.7909px;
+  background: linear-gradient(78deg, #585D5D 20%, #FFF 100%);
+  box-shadow: 0px 4px 6px rgba(50, 50, 50, 0.75);
+}

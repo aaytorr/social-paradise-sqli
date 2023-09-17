@@ -12,7 +12,7 @@
 - **🔒 Enhanced Security**: Addressed and fixed multiple security vulnerabilities to ensure a safer user experience.
 - **🐞 Bug Fixes**: Squashed numerous bugs that were present in the original codebase.
 - **📂 Directory Structure**: Refined and organized directory names for better clarity and maintainability.
-- **🔐 Password Hashing**: Updated the password hashing mechanism to utilize more secure methods.
+- **🔐 Password Hashing**: Updated the password hashing mechanism to utilize a more secure method.
   
 ## 📊 Progress
 
@@ -52,7 +52,7 @@ Follow these steps to get "Social Paradise SQLi" up and running:
 
 ### 📌 Notes
 
-- **Maintenance Page**: If you encounter a maintenance page, the password is "speaknow13". A nod to Taylor Swift's album "Speak Now". Don't forget to stream "Speak Now - Taylor's Version"! 🎶
+- **Maintenance Page**: If you encounter a maintenance page, the password is "speaknow13". (A nod to Taylor Swift's album "Speak Now". Don't forget to stream "Speak Now (Taylor's Version)"! 🎶)
 - **Admin Account**: The default admin account is "Isaac". If you're unable to access it, simply create a new account and copy its password hash to the "Isaac" account using phpMyAdmin or your preferred database management tool. This is a workaround due to the project's incomplete state, especially regarding the permission system which originally used usernames for certain permissions.
 
 
