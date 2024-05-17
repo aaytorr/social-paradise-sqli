@@ -1,59 +1,56 @@
-<h1 align="center">🌴 Social Paradise SQLi 🌴</h1>
+<h1 align="center">🌴 Social Paradise Rewritten 🌴</h1>
 
 <p align="center">
-  A modernized version of the original "Social Paradise" project. This repository aims to bring the project up to 2023 standards by introducing several improvements and fixes.
+  Welcome to the rewritten "Social Paradise" project! We're breathing new life into this classic, aligning it with the latest standards of 2024 for a more secure and efficient codebase.
 </p>
 
 ---
 
 ## 🚀 Key Improvements
 
-- **🔁 Migration to MySQLi**: Transitioned from the deprecated MySQL extension to the more robust and secure MySQLi.
-- **🔒 Enhanced Security**: Addressed and fixed multiple security vulnerabilities to ensure a safer user experience.
-- **🐞 Bug Fixes**: Squashed numerous bugs that were present in the original codebase.
-- **📂 Directory Structure**: Refined and organized directory names for better clarity and maintainability.
-- **🔐 Password Hashing**: Updated the password hashing mechanism to utilize a more secure method.
-  
-## 📊 Progress
+- **🔁 MySQLi Migration**: We've moved away from the outdated MySQL extension to the more secure and robust MySQLi.
+- **🔒 Enhanced Security**: We've fortified the codebase by patching numerous security loopholes to enhance user safety.
+- **🐞 Bug Squashing**: We've fixed a plethora of bugs lingering from the original version to ensure a bug-free experiance.
+- **📂 Streamlined Directories**: We've reorganized the directory structure for improved clarity and easier maintenance.
+- **🔐 Advanced Password Hashing**: We've upgraded our password hashing to a more secure standard.
 
-The project is approximately 60% complete. While significant progress has been made, there are still areas that require attention and refinement.
+## 📊 Project Progress
 
-## 📝 Note
+We are about 60% through the makeover. Although we've made great strides, there's still tons of work to be done to polish and perfect the project.
 
-🌞 This was a summer project, and I won't be making further updates or changes. Feel free to fork and continue the development if you're interested! 🌞
+## 📝 Project Status
 
-## 🤝 Contributions
+🌞 This project was undertaken as a summer hobby project, and I'm planning to pause further updates until the summer of 2024. In the meantime, feel free to fork this project and extend its features! 🌞
 
-Contributions are welcome! If you'd like to help improve the project, please create a pull request or open an issue to discuss potential changes or fixes.
+## 🤝 Get Involved
+
+Your contributions are valued! If you're keen to help out, please feel free to fork the project, submit a pull request, or start a discussion by opening an issue.
 
 ## 🙏 Acknowledgments
 
-This project is based on the original "Social Paradise" source code. A big thank you to the original authors and contributors for laying the groundwork.
+A heartfelt thank you to the creators and contributors of the original "Social Paradise" project. Your efforts have been the cornerstone of this revitalization.
 
-## 🛠 How to Setup
+## 🛠 Setup Instructions
 
-Follow these steps to get "Social Paradise SQLi" up and running:
+Get "Social Paradise Rewritten" up and running by following these steps:
 
 ### 📋 Prerequisites
 
-- PHP 8.0 or higher
-- MySQL Database
-- Necessary dependencies to run PHP and MySQL
+- PHP version 8.0 or higher
+- MySQL database setup
+- Required PHP and MySQL dependencies
 
 ### 🚀 Installation
 
-1. **Upload Files**: Transfer all the project files to your server.
-2. **Database Setup**: Access your MySQL database (e.g., using phpMyAdmin) and import the `database.sql` file.
-3. **Configuration**: Navigate to `Global.php` and update the following variables with your database details:
+1. **File Upload**: Transfer all project files to your server.
+2. **Database Configuration**: Use a tool like phpMyAdmin to import the `database.sql` file to your MySQL database.
+3. **Settings Adjustment**: Modify the settings in `Global.php` to match your database information:
    - `$host`
    - `$username`
    - `$password`
    - `$database`
 
-### 📌 Notes
+### 📌 Additional Notes
 
-- **Maintenance Page**: If you encounter a maintenance page, the password is "speaknow13". (A nod to Taylor Swift's album "Speak Now". Don't forget to stream "Speak Now (Taylor's Version)"! 🎶)
-- **Admin Account**: The default admin account is "Isaac". If you're unable to access it, simply create a new account and copy its password hash to the "Isaac" account using phpMyAdmin or your preferred database management tool. This is a workaround due to the project's incomplete state, especially regarding the permission system which originally used usernames for certain permissions.
-
-
-
+- **Maintenance Mode**: If you're greeted by a maintenance page, use "speaknow13" as the password—a little homage to Taylor Swift's "Speak Now" album. Remember to check out "Speak Now (Taylor's Version)" too! 🎶
+- **Admin Access**: If you can't log in as "Isaac," set up a new admin account and transfer the password hash to "Isaac" using phpMyAdmin. This is a temporary fix until we fully implement the new permission system.
